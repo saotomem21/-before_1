@@ -1,32 +1,32 @@
-# Sentiment and Stance Analysis
+# 感情分析とスタンス分析
 
-This repository contains Python scripts for analyzing sentiment and stance in Japanese text using a pre-trained BERT model.
+このリポジトリは、事前学習済みBERTモデルを使用して日本語テキストの感情分析とスタンス分析を行うPythonスクリプトを含んでいます。
 
-## Features
-- Sentiment analysis using koheiduck/bert-japanese-finetuned-sentiment model
-- Text preprocessing including URL removal and whitespace normalization
-- Batch processing for efficient analysis of large datasets
-- Detailed logging for monitoring and debugging
+## 特徴
+- koheiduck/bert-japanese-finetuned-sentimentモデルを使用した感情分析
+- URL削除や空白正規化を含むテキスト前処理
+- 大規模データセットの効率的な分析のためのバッチ処理
+- 監視とデバッグのための詳細なロギング
 
-## Requirements
+## 必要環境
 - Python 3.8+
-- See requirements.txt for dependencies
+- 依存関係はrequirements.txtを参照
 
-## Usage
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Set up environment variables:
+## 使用方法
+1. リポジトリをクローン
+2. 依存関係をインストール: `pip install -r requirements.txt`
+3. 環境変数を設定:
    ```bash
    export HUGGINGFACE_TOKEN=your_token_here
    ```
-4. Run the analysis:
+4. 分析を実行:
    ```bash
    python sentiment_stance_analysis.py
    ```
 
-## Output
-- Analysis results saved to analysis_output.csv
-- Logs saved to sentiment_analysis.log
+## 出力
+- 分析結果はanalysis_output.csvに保存
+- ログはsentiment_analysis.logに保存
 
-## License
+## ライセンス
 MIT
