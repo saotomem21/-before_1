@@ -73,3 +73,44 @@
 2025-01-17 03:30:17,401 - INFO - Processed batch 20/21 (98%) in 3 seconds
 2025-01-17 03:30:18,344 - INFO - Processed batch 21/21 (100%) in 0 seconds
 2025-01-17 03:30:18,350 - INFO - Results saved to analysis_output.csv in 0 seconds
+2025-01-17 04:37:42,678 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Sentiment analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 04:40:21,451 - ERROR - Stance analysis error: text input must of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2025-01-17 05:07:22,006 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:12:39,450 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:14:33,419 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:25:11,186 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:26:12,232 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:29:49,602 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:33:34,739 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:35:05,104 - INFO - Analysis completed and results saved to analysis_output.csv
+2025-01-17 05:36:50,415 - INFO - Analysis completed. Results saved to コメント_クリーニング後/analyzed_comments.csv
+2025-01-17 05:39:43,218 - INFO - Analysis completed. Results saved to コメント_クリーニング後/analyzed_comments_rounded.csv
+2025-01-17 05:40:54,313 - INFO - Analysis completed. Results saved to コメント_クリーニング後/analyzed_comments_rounded.csv
+2025-01-17 05:45:22,258 - INFO - Analysis completed. Results saved to コメント_クリーニング後/analyzed_comments_full.csv
+2025-01-17 05:50:04,162 - INFO - Analysis completed. Results saved to analysis_output.csv
+2025-01-17 06:01:21,849 - INFO - Analysis completed. Results saved to test_output.csv
+2025-01-17 06:06:58,237 - INFO - Analysis completed. Results saved to formatted_analysis_output.csv
+2025-01-17 06:13:25,335 - INFO - Analysis completed. Results saved to analysis_output.csv
+2025-01-17 06:17:11,698 - INFO - Analysis completed. Results saved to analysis_output.csv
+2025-01-17 06:21:21,979 - ERROR - Sentiment analysis error: The size of tensor a (650) must match the size of tensor b (512) at non-singleton dimension 1
+2025-01-17 06:23:03,566 - ERROR - Sentiment analysis error: The size of tensor a (525) must match the size of tensor b (512) at non-singleton dimension 1
+2025-01-17 06:23:32,067 - INFO - Analysis completed. Results saved to analysis_output.csv
