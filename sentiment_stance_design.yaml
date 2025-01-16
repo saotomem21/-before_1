@@ -1,0 +1,42 @@
+# 学習前モデルによる「感情(ポジ/ネガ)」と「スタンス(賛成/反対/中立)」の分析設計書
+
+pipeline_design:
+  - step: "CSV読み込み"
+    description: |
+      1) pandas等でCSVを読み込む。以下の通り:
+         df = pd.read_csv("コメント_クリーニング後/combined_output.csv", encoding="utf-8")
+         テキストカラム: df["内容"]
+      2) df.shape等でデータ件数を確認する。
+
+  - step: "前処理(テキストクリーニング)"
+    description: |
+      - 既にクリーニング済みであれば最小限でOK。
+      - 必要ならURL除去や改行整形などを実施。
+      - df["内容"] の各行に対して正規表現などを適用する。
+      - 例: text = re.sub(r"http\S+", "", text)
+
+  - step: "感情判定(ポジ/ネガ)"
+    description: |
+      - 学習前のモデル(例: 'cl-tohoku/bert-base-japanese-sentiment')などを利用。
+      - TransformersのAutoModelForSequenceClassificationでロードし、ポジ/ネガスコア算出。
+      - CSVの各行(内容)に対して、model推論→"positive" or "negative" ラベルを付与。
+
+  - step: "スタンス判定(賛成/反対/中立)"
+    description: |
+      - 学習前モデルとして、別の多クラス分類器を使うか、あるいはChatGPT APIに対し
+        プロンプトで "賛成/反対/中立" を判定させる。
+      - Transformersベースなら事前学習済みの多クラスモデルが必要(3クラス)。
+        未学習での推論は精度が低い可能性があるが、とりあえず実行する方針。
+      - 結果: "agree" / "disagree" / "neutral" などを各行に付与。
+
+  - step: "結果の統合・出力"
+    description: |
+      - df["感情"] = ["positive" or "negative"]
+      - df["スタンス"] = ["agree","disagree","neutral"]
+      - 最終的にdf.to_csv("analysis_output.csv", index=False, encoding="utf-8")などで出力。
+      - 必要ならスコア列(感情スコア,スタンススコア)も一緒に保存。
+
+notes:
+  - 学習前モデルで「スタンス(賛成/反対/中立)」を判定するには、専用データで学習済みの3クラスモデルが無い場合、精度が低い恐れがある。
+  - ChatGPT API等で疑似的にスタンス判定し、CSVに書き込むアプローチも考えられる(要トークン・API費用)。
+  - 今後ラベル付けや追加学習(ファインチューニング)を行う場合は、この構成を拡張して適用できる。

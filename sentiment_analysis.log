@@ -1,0 +1,75 @@
+2025-01-17 03:24:07,567 - INFO - Loaded 2025 rows in 0 seconds
+2025-01-17 03:24:09,266 - INFO - Model loaded in 1.69 seconds
+2025-01-17 03:24:09,266 - INFO - Analyzing sentiment in 21 batches...
+2025-01-17 03:24:13,386 - INFO - Processed batch 1/21 (4%) in 4 seconds
+2025-01-17 03:24:17,399 - INFO - Processed batch 2/21 (9%) in 4 seconds
+2025-01-17 03:24:21,516 - INFO - Processed batch 3/21 (14%) in 4 seconds
+2025-01-17 03:24:25,427 - INFO - Processed batch 4/21 (19%) in 3 seconds
+2025-01-17 03:24:29,693 - INFO - Processed batch 5/21 (24%) in 4 seconds
+2025-01-17 03:24:34,390 - INFO - Processed batch 6/21 (29%) in 4 seconds
+2025-01-17 03:24:38,408 - INFO - Processed batch 7/21 (34%) in 4 seconds
+2025-01-17 03:24:42,890 - INFO - Processed batch 8/21 (39%) in 4 seconds
+2025-01-17 03:24:46,450 - INFO - Processed batch 9/21 (44%) in 3 seconds
+2025-01-17 03:24:50,118 - INFO - Processed batch 10/21 (49%) in 3 seconds
+2025-01-17 03:24:53,795 - INFO - Processed batch 11/21 (54%) in 3 seconds
+2025-01-17 03:24:57,436 - INFO - Processed batch 12/21 (59%) in 3 seconds
+2025-01-17 03:25:01,145 - INFO - Processed batch 13/21 (64%) in 3 seconds
+2025-01-17 03:25:04,825 - INFO - Processed batch 14/21 (69%) in 3 seconds
+2025-01-17 03:25:08,544 - INFO - Processed batch 15/21 (74%) in 3 seconds
+2025-01-17 03:25:12,217 - INFO - Processed batch 16/21 (79%) in 3 seconds
+2025-01-17 03:25:15,819 - INFO - Processed batch 17/21 (83%) in 3 seconds
+2025-01-17 03:25:19,731 - INFO - Processed batch 18/21 (88%) in 3 seconds
+2025-01-17 03:25:23,404 - INFO - Processed batch 19/21 (93%) in 3 seconds
+2025-01-17 03:25:27,016 - INFO - Processed batch 20/21 (98%) in 3 seconds
+2025-01-17 03:25:27,997 - INFO - Processed batch 21/21 (100%) in 0 seconds
+2025-01-17 03:25:28,003 - INFO - Results saved to analysis_output.csv in 0 seconds
+2025-01-17 03:27:07,524 - INFO - Loaded 2025 rows in 0 seconds
+2025-01-17 03:27:09,354 - INFO - Model loaded in 1.82 seconds
+2025-01-17 03:27:09,354 - INFO - Analyzing sentiment in 21 batches...
+2025-01-17 03:27:13,471 - INFO - Processed batch 1/21 (4%) in 4 seconds
+2025-01-17 03:27:17,416 - INFO - Processed batch 2/21 (9%) in 3 seconds
+2025-01-17 03:27:21,653 - INFO - Processed batch 3/21 (14%) in 4 seconds
+2025-01-17 03:27:25,515 - INFO - Processed batch 4/21 (19%) in 3 seconds
+2025-01-17 03:27:29,524 - INFO - Processed batch 5/21 (24%) in 4 seconds
+2025-01-17 03:27:33,703 - INFO - Processed batch 6/21 (29%) in 4 seconds
+2025-01-17 03:27:37,976 - INFO - Processed batch 7/21 (34%) in 4 seconds
+2025-01-17 03:27:42,362 - INFO - Processed batch 8/21 (39%) in 4 seconds
+2025-01-17 03:27:46,318 - INFO - Processed batch 9/21 (44%) in 3 seconds
+2025-01-17 03:27:50,332 - INFO - Processed batch 10/21 (49%) in 4 seconds
+2025-01-17 03:27:54,427 - INFO - Processed batch 11/21 (54%) in 4 seconds
+2025-01-17 03:27:58,139 - INFO - Processed batch 12/21 (59%) in 3 seconds
+2025-01-17 03:28:01,709 - INFO - Processed batch 13/21 (64%) in 3 seconds
+2025-01-17 03:28:05,416 - INFO - Processed batch 14/21 (69%) in 3 seconds
+2025-01-17 03:28:09,164 - INFO - Processed batch 15/21 (74%) in 3 seconds
+2025-01-17 03:28:12,772 - INFO - Processed batch 16/21 (79%) in 3 seconds
+2025-01-17 03:28:16,296 - INFO - Processed batch 17/21 (83%) in 3 seconds
+2025-01-17 03:28:20,161 - INFO - Processed batch 18/21 (88%) in 3 seconds
+2025-01-17 03:28:23,877 - INFO - Processed batch 19/21 (93%) in 3 seconds
+2025-01-17 03:28:27,472 - INFO - Processed batch 20/21 (98%) in 3 seconds
+2025-01-17 03:28:28,465 - INFO - Processed batch 21/21 (100%) in 0 seconds
+2025-01-17 03:28:28,471 - INFO - Results saved to analysis_output.csv in 0 seconds
+2025-01-17 03:29:03,789 - INFO - Loaded 2025 rows in 0 seconds
+2025-01-17 03:29:05,314 - INFO - Model loaded in 1.52 seconds
+2025-01-17 03:29:05,314 - INFO - Analyzing sentiment in 21 batches...
+2025-01-17 03:29:08,857 - INFO - Processed batch 1/21 (4%) in 3 seconds
+2025-01-17 03:29:12,346 - INFO - Processed batch 2/21 (9%) in 3 seconds
+2025-01-17 03:29:16,117 - INFO - Processed batch 3/21 (14%) in 3 seconds
+2025-01-17 03:29:19,556 - INFO - Processed batch 4/21 (19%) in 3 seconds
+2025-01-17 03:29:23,112 - INFO - Processed batch 5/21 (24%) in 3 seconds
+2025-01-17 03:29:26,847 - INFO - Processed batch 6/21 (29%) in 3 seconds
+2025-01-17 03:29:30,653 - INFO - Processed batch 7/21 (34%) in 3 seconds
+2025-01-17 03:29:34,523 - INFO - Processed batch 8/21 (39%) in 3 seconds
+2025-01-17 03:29:38,004 - INFO - Processed batch 9/21 (44%) in 3 seconds
+2025-01-17 03:29:41,509 - INFO - Processed batch 10/21 (49%) in 3 seconds
+2025-01-17 03:29:45,067 - INFO - Processed batch 11/21 (54%) in 3 seconds
+2025-01-17 03:29:48,668 - INFO - Processed batch 12/21 (59%) in 3 seconds
+2025-01-17 03:29:52,276 - INFO - Processed batch 13/21 (64%) in 3 seconds
+2025-01-17 03:29:55,918 - INFO - Processed batch 14/21 (69%) in 3 seconds
+2025-01-17 03:29:59,528 - INFO - Processed batch 15/21 (74%) in 3 seconds
+2025-01-17 03:30:03,116 - INFO - Processed batch 16/21 (79%) in 3 seconds
+2025-01-17 03:30:06,571 - INFO - Processed batch 17/21 (83%) in 3 seconds
+2025-01-17 03:30:10,322 - INFO - Processed batch 18/21 (88%) in 3 seconds
+2025-01-17 03:30:13,849 - INFO - Processed batch 19/21 (93%) in 3 seconds
+2025-01-17 03:30:17,401 - INFO - Processed batch 20/21 (98%) in 3 seconds
+2025-01-17 03:30:18,344 - INFO - Processed batch 21/21 (100%) in 0 seconds
+2025-01-17 03:30:18,350 - INFO - Results saved to analysis_output.csv in 0 seconds
